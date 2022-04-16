@@ -1,0 +1,18 @@
+<h1>Watson Assistant Metricas</h1>
+
+<form action="/form" method="post">
+    <label for="workSpaceID">workSpaceID</label>
+    <input type="text" id="workSpaceID" name="workSpaceID" value="{{workSpaceID}}" placeholder="Ingrese workSpaceID" />
+    <br>
+    <label for="date">Fecha</label>
+    <input type="datetime-local" id="fecha" name="fecha" value="{{fecha}}" placeholder="Ingresar fecha" />
+    <br>
+    <button type="submit" name="btnEnviar">Enviar</button>
+</form>
+<br>
+<div>
+    <ul>
+        <li>Usuarios activos: {{print2}}</li>
+        <!--<li>{{print2}}</li>-->
+    </ul>
+</div>
